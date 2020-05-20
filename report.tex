@@ -48,7 +48,7 @@ uniform distribution and exponential distribution. We will use various
 statistical tests to find the most fitting one.
 
 \section{Kolmogorov-Smirnov test}
-
+For days 1 and 2 we have applied the Kolmogorov-Smirnov test to see if it is possible for that data to be uniformly distributed between 0 and 400. To scale data, first we have divided all the data with 400. And then we calculated values for R(i), i/N, i/N-R(i) and  R(i)-(i-1)/N. After getting all these values, we get the maximum and determine our KS statistic. According to our KS statistic, using a 0.05 significance level we have conculuded that data for both days cannot come from a uniform distribution. All details of our Kolmogorov-Smirnov test can be found in our Excel file.
 \section{Dataset statistcs}
 
 % Please add the following required packages to your document preamble:
@@ -98,7 +98,10 @@ statistical tests to find the most fitting one.
     \end{subfigure}
 \end{figure}
 
+\newpage
+
 \section{Chi-Squared test}
+In that part, we have conducted a chi-squared test for both days separately. We used 10 second intervals as expected and determined our bins accordingly. Frequencies and expected frequencies of all bins are calculated and according to that values chi-squared statistics are determined. For both days, we see that our chi-squared statistics are smaller that table values. So, we cannot reject the hypothesis that these data are coming from an exponential distribution with means specified in section 3 of the report.
 
 \section{QQ-Plot}
 
